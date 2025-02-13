@@ -11,11 +11,11 @@
 </head>
 
 <body>
-  <header class="flex items-center bg-[#113448] justify-between text-white px-10 py-8">
+  <header class=" flex items-center bg-[#113448] justify-between text-white px-10 py-8">
     <div class="logoimage w-24">
       <img src="./logo.svg" alt="">
     </div>
-    <div class="menu flex ">
+    <div class="menu hidden  md:flex ">
       <ul class="flex gap-5 justify-around font-semibold">
         <li><a href="" class="hover:text-green-300 ">HOME</a></li>
         <li><a href="" class="hover:text-green-300">INTRO</a></li>
@@ -46,27 +46,27 @@
   </section>
 
   <!-- intro  -->
-  <div class="intro flex justify-between mx-3 my-3 mt-16">
+  <div class="intro lg:flex md:flex justify-between mx-3 my-3 mt-16">
     <div class="introleft w-1/2 ml-20 mr-4">
       <h6 class="text-[#14bf98] w-4 font-bold py-3 ">INTRO</h6>
-      <h1 class="font-semibold py-1 text-5xl text-black">We Offer Some Of The Best Business Growth Services In Town</h1>
-      <p class=" py-4  text-xl text-gray-400 ">Launching a new company or developing the market position of an
+      <h1 class="font-semibold py-1 lg:text-5xl md:text-7xl sm:text-9xl text-black">We Offer Some Of The Best Business Growth Services In Town</h1>
+      <p class=" py-4  text-xl md:text-2xl sm:text-3xl text-gray-400 ">Launching a new company or developing the market position of an
         existing one can be quite an overwhelming processs at times.</p>
 
-       <p class=" py-2 text-xl text-gray-400 italic"> "Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting
+       <p class=" py-2 text-xl md:text-2xl sm:text-3xl text-gray-400 italic"> "Our mission here at Aira is to get you through those tough moments relying on our team's expertise in starting
         and growing companies."</p>
-      <h4 class="font-bold py-5 text-gray-600 ">Louise Donovan - CEO</h4>
+      <h4 class="font-bold py-5 text-gray-600  ">Louise Donovan - CEO</h4>
     </div>
 
-    <div class="introright w-1/2 mr-20">
+    <div class="introright w-1/2 mr-20 md:ml-20 sm:ml-28">
       <div class="introimage">
-        <img class="transition-transform ease-in-out hover:scale-110" src="./image/intro-office.jpg" alt="">
+        <img class="sm:w-16 md:w-32 lg:w-full  transition-transform ease-in-out hover:scale-110" src="./image/intro-office.jpg" alt="">
       </div>
     </div>
   </div>
 
   <!-- three icon -->
-  <div class="threeicon flex justify-between mx-3 my-3 mt-24">
+  <div class="threeicon lg:flex md:flex-row justify-between mx-3 my-3 mt-24">
     <div class="icon1 w-1/3 ml-20 mr-4 ">
       <div class="iconimg w-60">
         <img src="./image/imageicon.PNG" alt="">
@@ -102,7 +102,7 @@
     <h5 class="text-green-300 text-lg pt-2 ">SERVICES</h5>
     <h1 class="text-3xl mt-6 font-extrabold ">Choose The Service Package <br>
        That Suits Your Needs</h1>
-    <div class="serviceflex flex mt-20 justify-center">
+    <div class="serviceflex lg:flex md:flex-row mt-20 justify-center">
       <div class="serviceone  w-1/4 m-auto t8ext-center mt-7 mb-8 rounded-lg border-slate-600">
         <div class="serviceimage">
           <img src="./image/services-1.jpg" alt="">
@@ -149,18 +149,18 @@
 
   <!-- left right photo -->
 
-  <div class="intro flex justify-around mt-16">
-    <div class=" w-1/2 h-full">
-      <img src="./image/details-1-background.jpg" alt="">
+  <div class="intro  lg:flex   justify-around mt-16">
+    <div class=" w-1/2 ">
+      <img class="sm:w-16 md:w-32 lg:w-full" src="./image/details-1-background.jpg" alt="">
     </div>
-    <div class="ashu  w-1/2 h-96  px-16 py-16">
-      <h1 class=" text-3xl font-bold text-gray-800 py-3">Accelerate Business Growth To Improve Revenue Numbers</h1>
-      <h1 class=" font-bold text-green-400 text-lg"> <span class=" bg-green-600 rounded-full px-3 m-2 text-white py-1">1</span>How Can
+     <div class="ashu  w-1/2   px-16 py-16"> 
+      <h1 class=" text-3xl font-bold md:text-5xl sm:text-8xl text-gray-800 py-3">Accelerate Business Growth To Improve Revenue Numbers</h1>
+      <h1 class=" font-bold text-green-400 text-lg md:text-xl sm:text-3xl"> <span class=" bg-green-600 rounded-full px-3 m-2 text-white py-1">1</span>How Can
         aria Help Your Business</h1>
       <p class="text-gray-400 ml-10">At Aria solutions, we’ve taken the consultancy concept one step further by offering
         a full service
         management organization with expertise.</p>
-      <h1 class=" font-bold py-5 "> <span class="  rounded-full px-3 m-2  py-1">2</span>Great
+      <h1 class=" font-bold py-5 md:text-3xl sm:text-6xl"> <span class="  rounded-full px-3 m-2  py-1">2</span>Great
         Strategic Business
         Planning</h1>
       <h1 class=" font-bold py-5"> <span class="  rounded-full px-3 m-2  py-1">3</span>Online
@@ -172,18 +172,18 @@
 
   <!-- right image-->
 
-  <div class="intro flex justify-around ">
-    <div class="ashu  w-1/2 h-96 text-black px-12 py-16">
+  <div class="intro  lg:flex   justify-around ">
+    <div class="ashu  w-1/2  text-black px-12 py-16">
 
-      <ul class=" flex items-center justify-around">
-        <a class=" flex items-center gap-2 text-[#14bf98] text-2xl " href=""><i
+      <ul class=" lg:flex md:flex-row sm:flex-row items-center justify-around">
+        <a class=" lg:flex md:flex-row sm:flex-row md:text-3xl sm:text-6xl md:items-center sm:items-center lg:items-center gap-2 text-[#14bf98] text-2xl " href=""><i
             class="fa-solid fa-money-bill"></i><strong class="font-semibold">Business</strong></a>
-        <a class=" flex items-center gap-2 text-2xl text-[#14bf98] " href=""><i
+        <a class="md:items-center sm:items-center lg:flex md:flex-row sm:flex-row md:text-3xl sm:text-6xl lg:items-center gap-2 text-2xl text-[#14bf98] " href=""><i
             class="fa-solid fa-money-bill"></i><strong class="text-gray-300 font-semibold">Expertise</strong></a>
-        <a class=" flex items-center gap-2 text-2xl text-[#14bf98]" href=""><i
+        <a class=" lg:flex md:flex-row sm:flex-row md:text-3xl sm:text-6xl md:items-center sm:items-center lg:items-center gap-2 text-2xl text-[#14bf98]" href=""><i
             class="fa-solid fa-money-bill"></i><strong class="text-gray-300 font-semibold">Quality</strong> </a>
       </ul>
-      <h1 class=" text-3xl font-bold ml-8 py-3">Business Services For Companies</h1>
+      <h1 class=" text-3xl font-bold ml-8 md:text-5xl sm:text-8xl py-3">Business Services For Companies</h1>
 
       <p class="ml-8">Aria provides the most innovative and customized business <span
           class=" text-[#14bf98] underline cursor-pointer">Our Services</span> in the industry. Our Services section shows
@@ -204,7 +204,7 @@
       </div>
     </div>
     <div class=" w-1/2 ">
-      <img src="./image/details-2-background.jpg" alt="">
+      <img class="sm:w-16 md:w-32 lg:w-full" src="./image/details-2-background.jpg" alt="">
     </div>
   </div>
 
@@ -216,7 +216,7 @@
     <p class=" text-center py-4 font-semibold italic ">Our clients are our partners and we can not imagine a ebettr future for our <br>company
       without helping them reach their objectives</p>
 
-    <div class="cursorimage flex ml-20 mt-20 mr-10 items-center ">
+    <div class="cursorimage lg:flex  ml-20 mt-20 mr-10 items-center ">
 
       <div class="cursourimage1">
         <img class="rounded-full" src="./image/curouserimage1.jpg" alt="">
@@ -291,7 +291,7 @@
 
   <!-- form  -->
 
-  <div class=" bg-[#153e52] w-full h-96 flex justify-evenly m-auto items-center mt-24">
+  <div class=" bg-[#153e52] w-full  lg:flex justify-evenly m-auto items-center mt-24">
     <div class=" w-1/2 ml-20">
         <h6 class=" text-[#14bf98] font-semibold">CALL ME</h6>
         <h1 class=" font-bold text-white text-2xl mt-5">Have Us Contact You By Filling <br> And Submitting The Form
@@ -310,7 +310,7 @@
     <div class=" w-1/2 mr-20">
 
 
-        <form class="max-w-sm mx-auto">
+        <form class="max-w-sm mx-auto md:textcenter sm:text-center ">
             <div class="mb-5">
                 <input type="name" id="name" class=" text-sm rounded-lg w-full p-2.5" placeholder="Name"
                     required />
@@ -328,8 +328,8 @@
                   required />
           </div>
 
-            <div class="flex items-start mb-5">
-                <div class="flex items-center h-5">
+            <div class=" lg:flex items-start mb-5">
+                <div class="lg:flex items-center h-5">
                     <input id="terms" type="checkbox" value=""
                         class="w-4 h-4 border border-gray-300 rounded-sm bg-gray-50 focus:ring-3  dark:bg-gray-700 dark:border-gray-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
                         required />
@@ -353,7 +353,7 @@
     <p class=" w-8 font-bold p-6 text-[#14bf98] items-center m-auto ">PROJECTS</p>
     <h1 class=" m-auto text-center text-2xl font-extrabold">Projects That We're Proud Of
     </h1>
-    <div class=" flex justify-center mt-5">
+    <div class=" lg:flex md:flex-row sm:flex-row justify-center mt-5">
         <button type="button"
             class="text-white bg-[#14bf98] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600  focus:outline-none dark:focus:ring-blue-800">SHOW
             ALL</button>
@@ -372,7 +372,7 @@
         <button type="button"
             class="text-neutral-600 bg-[#e8edec] focus:ring-4 ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 hover:bg-[#14bf98] focus:outline-none dark:focus:ring-blue-800">SEO</button>
     </div>
-    <div class=" flex flex-wrap px-16 py-10 ">
+    <div class=" lg:flex lg:flex-wrap md:flex-row sm:flex-row px-16 py-10 ">
         <div class="group relative w-1/4 overflow-hidden h-56 bg-cover bg-no-repeat">
             <img class="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" src="./image/eight1.jpg" alt="">
             <h1 class="absolute inset-0 flex justify-center items-center bg-black bg-opacity-5 opacity-0 transition-opacity duration-300 group-hover:opacity-100 text-white font-extrabold text-lg">
@@ -428,19 +428,19 @@
 
 <!-- four image -->
 
-<div class=" w-full h-[500px] bg-[#f9f6f6] pt-4">
+<div class=" w-full  lg:h-[450px] bg-[#f9f6f6] pt-4">
   <h1 class=" text-center font-bold text-4xl justify-center p-3">Our Team Of Consultants</h1> 
   <p class=" text-center">We're only as strong and as knowledgeable as our team. So here are the men and <br> women which help customers meet goals and grow companies</p>
-  <div class=" flex mx-32 justify-evenly items-center m-auto ">
+  <div class=" lg:flex md:flex-row mx-32 justify-evenly items-center m-auto ">
       <div class="group relative w-1/4 h-56 bg-cover bg-no-repeat mt-4  ">
-          <img class="group w-52 h-auto object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" src="./image/team-1.png" alt="">
-          <h3 class=" text-2xl  pt-3 ml-8 text-gray-600">John Whitelong</h3>
-          <h3 class=" font-bold ml-8 pt-2">General Manager</h3>
+          <img class="group  object-cover transition-transform duration-300 ease-in-out group-hover:scale-110  " src="./image/team-1.png" alt="">
+          <h3 class=" lg:text-xl sm:text-6xl pt-3 ml-8 text-gray-600">John Whitelong</h3>
+          <h3 class=" font-bold sm:text-2xl ml-8 pt-2">General Manager</h3>
           <!-- <div class="fouricon pt-3">
             <span class="px-3 ml-7 text-xl"><a href=""><i class="fa-brands fa-facebook px-3"></i></a><a href=""><i
               class="fa-brands fa-twitter"></i></a></span>
                </div> -->
-               <div class="flex mt-5">
+               <div class=" flex mt-2">
                 <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300  text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-facebook"></i></span></a>
                 <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-twitter"></i></a>
 
@@ -448,10 +448,10 @@
 
       </div>
       <div class="group relative w-1/4 h-56 bg-cover bg-no-repeat mt-4">
-          <img class="group w-52 h-auto object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" src="./image/team-2.png" alt="">
-          <h3 class=" text-2xl ml-8 pt-3 text-gray-600">Veronique Smith</h3>
-          <h3 class="  font-bold ml-8 pt-2">Business Developer</h3>
-           <div class="flex  mt-5">
+          <img class="group  object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 sm:w-16 md:w-32 lg:w-52" src="./image/team-2.png" alt="">
+          <h3 class=" lg:text-2xl sm:text-6xl ml-8 pt-3 text-gray-600">Veronique Smith</h3>
+          <h3 class="  font-bold sm:text-2xl ml-8 pt-2">Business Developer</h3>
+           <div class="flex  mt-2">
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-facebook"></i></span></a>
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-twitter"></i></a>
 
@@ -460,10 +460,10 @@
 
       </div>
       <div class="group relative w-1/4 h-56 bg-cover bg-no-repeat mt-4">
-          <img class="group w-52 h-auto object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" src="./image/team-3.png" alt="">
-          <h3 class=" text-2xl ml-8 pt-3 text-gray-600">Chris Zimerman</h3>
-          <h3 class=" ml-8 font-bold pt-2">Online Marketer</h3>
-          <div class="flex  mt-5">
+          <img class="group object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 sm:w-16 md:w-32 lg:w-52" src="./image/team-3.png" alt="">
+          <h3 class=" lg:text-2xl ml-8 pt-3 sm:text-6xl text-gray-600">Chris Zimerman</h3>
+          <h3 class=" ml-8 font-bold sm:text-2xl pt-2">Online Marketer</h3>
+          <div class="flex  mt-2">
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-facebook"></i></span></a>
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-twitter"></i></a>
 
@@ -472,11 +472,11 @@
 
       </div>
       <div class="group relative w-1/4 h-56 bg-cover bg-no-repeat mt-4">
-          <img class="group w-52 h-auto object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" src="./image/team-4.png" alt="">
-          <h3 class=" text-2xl ml-8 pt-3 text-gray-600">Mary Villalonga</h3>
-          <h3 class=" ml-8 font-bold pt-2">Community Manager</h3>
+          <img class="group object-cover transition-transform duration-300 ease-in-out group-hover:scale-110 sm:w-16 md:w-32 lg:w-52" src="./image/team-4.png" alt="">
+          <h3 class=" lg:text-2xl ml-8 pt-3 sm:text-6xl text-gray-600">Mary Villalonga</h3>
+          <h3 class=" ml-8 font-bold pt-2 sm:text-2xl">Community Manager</h3>
          
-          <div class="flex  mt-5">
+          <div class="flex  mt-2">
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-facebook"></i></span></a>
             <a href="#" class="w-8 h-8 ml-6 bg-[#14bf98] hover:bg-green-300 text-white flex items-center justify-center rounded-lg text-lg"><span><i class="fa-brands fa-twitter"></i></a>
 
@@ -489,36 +489,36 @@
 
 <!--  -->
 
-<div class="intro flex justify-around items-center gap-3 m-8">
+<div class="intro lg:flex justify-around items-center gap-3 m-8">
   <div class=" w-1/2 ">
       <img class=" rounded-md" src="./image/details-2-background.jpg" alt="">
   </div>
   <div class=" w-1/2 ml-20">
       <h6 class=" text-[#14bf98]">ABOUT</h6>
-      <h1 class=" font-bold text-black text-2xl">We're Passionate About <br>Delivering Growth Services
+      <h1 class=" font-bold text-black lg:text-2xl sm:text-6xl">We're Passionate About <br>Delivering Growth Services
       </h1>
       <p class="text-gray-400 pt-2">Our goal is to provide the right business growth services at the <br>
           appropriate time so companies can benefit from the created <br> momentum and thrive for a long
           period of time</p>
-      <p class=" text-black pt-5"><span class=" text-[#14bf98] text-xs"><i
+      <p class=" text-black pt-5"><span class=" text-[#14bf98] lg:text-xs sm:2xl:"><i
                   class="fa-solid fa-square"></i></span>
           Everything we recommend has direct positive impact</p>
-      <p class=" text-black"><span class=" text-[#14bf98] text-xs"><i class="fa-solid fa-square"></i></span>
+      <p class=" text-black"><span class=" text-[#14bf98] lg:text-xs sm:text-2xl"><i class="fa-solid fa-square"></i></span>
 
           You will become an important partner of our company</p>
-      <div class=" flex gap-6 text-end items-start mt-5">
-          <h1 class=""><span class=" font-extrabold text-[#14bf98] text-3xl "> 231 </span> Users</h1>
-          <h1><span class=" font-extrabold text-[#14bf98] text-3xl"> 121 </span> Issues </h1>
-          <h1><span class=" font-extrabold text-[#14bf98] text-3xl"> 159 </span> Reviews</h1>
+      <div class=" lg:flex gap-6 text-end items-start mt-5">
+          <h1 class=""><span class=" font-extrabold text-[#14bf98] lg:text-3xl "> 231 </span> Users</h1>
+          <h1><span class=" font-extrabold text-[#14bf98] lg:text-3xl"> 121 </span> Issues </h1>
+          <h1><span class=" font-extrabold text-[#14bf98] lg:text-3xl"> 159 </span> Reviews</h1>
       </div>
   </div>
 </div>
 
 <!-- form second -->
 
-<div class="contactmain flex justify-around bg-[#f4f1f1] my-8 p-12">
+<div class="contactmain lg:flex justify-around bg-[#f4f1f1] my-8 p-12">
   <div class="contact w-1/2 ">
-      <div class="bg-white p-10  ">
+      <div class=" p-10  ">
           <!-- Header -->
            <h1 class="text-[#14bf98]">CONTACT</h1>
           <h2 class="text-2xl font-bold text-gray-800">Get In Touch Using The Form</h2>
@@ -532,16 +532,16 @@
                   <span><i class="fa-solid fa-location-dot"></i></span>
                   <span class="text-black">22nd Innovative Street, San Francisco, CA 94043, US</span>
               </div>
-              <div class="flex flex">
-              <div class="flex items-center gap-2 text-[#14bf98] mt-3">
+              <div class="lg:flex md:flex">
+              <div class="lg:flex md:flex items-center gap-2 text-[#14bf98] mt-3">
                   <span><i class="fa-solid fa-phone"></i></span>
                   <a href="tel:+8172022126" class="text-black hover:underline">+81 720 22 126</a> 
               </div>
-              <div class="flex items-center gap-2 text-[#14bf98] mt-3">
+              <div class="lg:flex items-center gap-2 text-[#14bf98] mt-3">
                   <span class="ml-4"><i class="fa-solid fa-phone"></i></span>
                   <a href="tel:+8172022126" class="text-black hover:underline">+81 720 22 126</a> 
               </div>
-              <div class="flex items-center gap-2 text-gray-600 mt-3">
+              <div class="lg:flex items-center gap-2 text-gray-600 mt-3">
                <span class="ml-4 text-[#14bf98]"><i class="fa-solid fa-envelope"></i></span>
                <a href="mailto:office@domain.com" class="text-black hover:underline">office@domain.com</a>
            </div>
@@ -642,9 +642,9 @@
         </div>
     </footer>   -->
 
-<div class="h-[350px] bg-[#113448]">
-    <div class="footer  text-white flex justify-around items-center ">
-      <div class="footermain  flex justify-around">
+<div class="lg:h-[350px] bg-[#113448]">
+    <div class="footer  text-white lg:flex justify-around items-center ">
+      <div class="footermain  lg:flex justify-around">
       <div class="footone w-[40%] py-16 px-10">
         <h1 class="text-2xl font-semibold ">Few Words About Aria</h1>
         <p class="mt-5">We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.</p>
@@ -652,21 +652,21 @@
      
       <div class="foottwo w-[20%] py-16 ml-8">
         <h1 class="text-2xl font-semibold">Links</h1>
-        <p class="hover:underline mt-3"><a href="">Term & Condition</a></p>
-        <p class="hover:underline mt-3"><a href="">Privecy Policy</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Term & Condition</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Privecy Policy</a></p>
         
       </div>
       <div class="foottwo w-[20%] py-16">
         <h1 class="text-2xl font-semibold">Tools</h1>
-        <p class="hover:underline mt-3"><a href="">Buisnessgrowth.com</a></p>
-        <p class="hover:underline mt-3"><a href="">influencers.com</a></p>
-        <p class="hover:underline mt-3"><a href="">optimizer.net</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Buisnessgrowth.com</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Influencers.com</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">0ptimizer.net</a></p>
       </div>
       <div class="foottwo w-[20%] py-16">
         <h1 class="text-2xl font-semibold">Partners</h1>
-        <p class="hover:underline mt-3"><a href="">unicorns.com</a></p>
-        <p class="hover:underline mt-3"><a href="">staffmanager.com</a></p>
-        <p class="hover:underline mt-3"><a href="">association.gov</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Unicorns.com</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Staffmanager.com</a></p>
+        <p class="hover:underline mt-3 text-gray-300 hover:text-white"><a href="">Association.gov</a></p>
       </div>
       </div>
     </div>
